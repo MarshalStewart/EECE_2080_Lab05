@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mstewart/EECE_2080/EECE_2080_Lab05/Sorting.h
+iostream
+-
+string
+-
+random
+-
+cstdlib
+-
+ctime
+-
+
+/home/mstewart/EECE_2080/EECE_2080_Lab05/tests.cpp
+gtest/gtest.h
+-
+Sorting.h
+/home/mstewart/EECE_2080/EECE_2080_Lab05/Sorting.h
+iostream
+-
+chrono
+-
+
